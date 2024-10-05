@@ -12,8 +12,8 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        darkBackgroundPrimary: "#111827",
-        darkBackgroundSecondary: "#1F2937",
+        darkBackgroundPrimary: "#0c1821",
+        darkBackgroundSecondary: "#1b2a41",
       },
       screens: {
         xs: "350px",

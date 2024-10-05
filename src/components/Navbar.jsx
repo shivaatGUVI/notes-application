@@ -21,14 +21,14 @@ export default function Navbar(props) {
 
   return (
     <nav
-      className={`dark:border-none border dark:bg-gray-950 p-2 px-4 flex justify-between items-center lg:mb-6 md:mb-5 sm:mb-4 xs:mb-3 z-50`}
+      className={`dark:border-none border dark:bg-darkBackgroundPrimary p-2 px-4 flex justify-between items-center lg:mb-6 md:mb-5 sm:mb-4 xs:mb-3 z-50`}
     >
       <div className="w-1/2">
-        <Link href={route} title="Home">
-          <h1 className="lg:text-xl md:text-lg sm:text-base xs:text-[1.1rem] font-bold">
+        <h1 className="w-fit lg:text-xl md:text-lg sm:text-base xs:text-[1.1rem] font-bold">
+          <Link href={route} title="Home">
             Shiva Sunchu
-          </h1>
-        </Link>
+          </Link>
+        </h1>
       </div>
       <div className="w-fit flex lg:gap-x-4 md:gap-x-4 sm:gap-x-3 xs:gap-x-2  items-center">
         <ThemeToggle />

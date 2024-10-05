@@ -19,8 +19,8 @@ export default async function OperatingSystemContent({ name }) {
   const metaData = matter(fileContent);
 
   return (
-    <section className="lg:w-10/12 md:w-10/12 sm:w-10/12 xs:w-10/12 m-auto lg:mb-12 md:mb-12 sm:mb-12 pb-10 xs:pb-12 bg-white dark:bg-gray-900">
-      <div className="w-full lg:mb-6 md:mb-6 sm:mb-5 xs:mb-3 sticky top-0 py-4 bg-white dark:bg-gray-900">
+    <>
+      <div className="w-full lg:mb-6 md:mb-6 sm:mb-5 xs:mb-3 sticky top-0 py-4 bg-white dark:bg-darkBackgroundSecondary">
         <h2 className="underline underline-offset-4 xs:underline-offset-1 lg:text-xl md:text-lg sm:text-md xs:text-[1rem] text-center font-medium tracking-normal">
           {metaData?.data.title}
         </h2>
@@ -32,6 +32,6 @@ export default async function OperatingSystemContent({ name }) {
           </Markdown>
         </div>
       </div>
-    </section>
+    </>
   );
 }

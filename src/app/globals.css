@@ -13,6 +13,6 @@
   }
 
   .dark body {
-    @apply bg-gray-900 text-white; /* Dark mode styles */
+    @apply bg-darkBackgroundSecondary text-white; /* Dark mode styles */
   }
 }

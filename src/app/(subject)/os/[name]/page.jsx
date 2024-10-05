@@ -19,8 +19,8 @@ export const generateStaticParams = async () => {
 export default function OperatingSystemNotes(props) {
   const name = props.params.name;
   return (
-    <div>
+    <>
       <OperatingSystemContent name={name} />
-    </div>
+    </>
   );
 }

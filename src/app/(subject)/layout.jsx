@@ -20,7 +20,9 @@ export default function Layout({ children }) {
           </Suspense>
         </NotesContextProvider>
       )}
-      <div className="w-10/12 m-auto pb-12 scroll-smooth">{children}</div>
+      <section className="lg:w-10/12 md:w-10/12 sm:w-10/12 xs:w-10/12 m-auto lg:mb-12 md:mb-12 sm:mb-12 pb-10 xs:pb-12 bg-white dark:bg-transparent">
+        {children}
+      </section>
     </section>
   );
 }
