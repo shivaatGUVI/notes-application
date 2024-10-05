@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 3px 0px;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-black; /* Light mode styles */
+    border: none;
+  }
+
+  .dark body {
+    @apply bg-gray-900 text-white; /* Dark mode styles */
+  }
+}
